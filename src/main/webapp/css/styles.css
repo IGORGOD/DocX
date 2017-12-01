@@ -1,0 +1,139 @@
+* {
+    margin: auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #9fa890;
+    background-image : url(../img/docs.jpg);
+    background-attachment: fixed;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: #242424;
+    height: 51px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#footer {
+    background: #2e2e2e;
+    height: 48px;
+    width: 100%;
+    font-size: 12pt;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.outline {
+    font-family: Arial;
+    color: #cccccc;
+    padding: 15px;
+    display: block;
+    float: right;
+}
+
+#buttons{
+    background: #2e2e2e;
+}
+
+.load{
+    font-family: Arial;
+    color: #cccccc;
+    padding: 15px;
+    display: block;
+    margin: auto;
+    border: 1px solid #cbc8a1;
+}
+
+#mainpage {
+    float: left;
+}
+
+.header {
+    border-left: 1px solid #383838;
+    border-right: 1px solid #383838;
+    text-decoration: none;
+    font-size: 13.5pt;
+}
+
+.panel {;
+    margin: 0;
+    height: 48px;
+    width: auto;
+    background: #cdcdcd;
+}
+
+#main {
+    padding-bottom: 48px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    display: table;
+}
+
+#submit {
+    float: right;
+}
+
+.form {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+#form {
+    background-image: url(../img/signin.jpg);
+    display: inline-block;
+    border: 1px outset #fc3;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.login {
+    height: 77px;
+}
+
+.register {
+    height: 102px;
+}
+
+tr {
+    text-align: center;
+    vertical-align: middle;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    text-align: center;
+    vertical-align: middle;
+}
